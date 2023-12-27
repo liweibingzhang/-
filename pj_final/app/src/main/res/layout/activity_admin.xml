@@ -1,0 +1,43 @@
+<!-- activity_admin.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_admin_title"
+        android:text="管理员页面"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        android:textColor="@color/colorBrown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="@color/colorBlue"/>
+    <TextView
+        android:id="@+id/tv_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="22sp"
+        android:textColor="@color/colorRed"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:id="@+id/btn_Logout"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorBlue"
+        android:text="退出"
+        />
+    <ListView
+        android:id="@+id/lv_all_commodities"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_admin_title"
+        android:layout_marginTop="5dp"/>
+
+</RelativeLayout>

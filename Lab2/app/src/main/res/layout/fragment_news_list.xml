@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/newsList"
+        android:layout_width="match_parent"
+        android:layout_height="168dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请输入要跳转的目录数字: " />
+
+    <EditText
+        android:id="@+id/editTextDirectory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnGoToNews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确认" />
+</LinearLayout>
