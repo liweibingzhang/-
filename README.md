@@ -10,4 +10,6 @@ Lab3 —— 熟悉Service的基本特性
 #
 Lab4 —— 掌握Content Provider的设计方法
 #
+Pj —— 实现了一个校园二手交易平台
+#
 Code文件夹是祖传的Demo代码
